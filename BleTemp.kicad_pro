@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.499999,
-          "width": 0.207495
+          "height": 0.2,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,84 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|139502703|44790004|cd7e07d4-c754-4de4-abf5-e14ebe06c576|225ce24c-3301-4665-840c-5a48f390c805",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139502706|44790004|8ced27a9-be1a-415e-a9ed-f597e3c64f11|225ce24c-3301-4665-840c-5a48f390c805",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139503093|40189685|d26da72c-6b07-4651-b547-5583133d50ba|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139503093|40386191|f99cadfe-9a3f-49db-abe0-17fc0ebb0244|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139503093|42389685|9700348c-e44b-4991-8fed-2c35cb643b2e|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139997506|46899997|8ced27a9-be1a-415e-a9ed-f597e3c64f11|225ce24c-3301-4665-840c-5a48f390c805",
+          ""
+        ],
+        [
+          "solder_mask_bridge|140003019|42875391|f99cadfe-9a3f-49db-abe0-17fc0ebb0244|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142142703|42390007|352dfd91-8ba8-41f7-b62b-f0594d79e739|ad90bfae-53cb-4f0f-98b0-7e3e019c23f7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142142706|40690003|418a6af9-6d6a-4882-bb7a-e4b7d23f30cc|73cd2140-9d02-4340-bd75-ff319dcf5da7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142142706|46490003|c504936a-dc89-4d94-ace6-2f722e82c097|6404221b-4d61-417d-9a9a-995d9a784636",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142322703|44790004|cd7e07d4-c754-4de4-abf5-e14ebe06c576|225ce24c-3301-4665-840c-5a48f390c805",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142322706|38889994|9743daf2-4941-4c0a-be8a-3f7a1204769e|73cd2140-9d02-4340-bd75-ff319dcf5da7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142323019|46990391|5be7be12-a3d2-43bc-a454-76327fc5c5ba|225ce24c-3301-4665-840c-5a48f390c805",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142323093|40689685|418a6af9-6d6a-4882-bb7a-e4b7d23f30cc|73cd2140-9d02-4340-bd75-ff319dcf5da7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142323093|40689685|d26da72c-6b07-4651-b547-5583133d50ba|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142323093|42889685|352dfd91-8ba8-41f7-b62b-f0594d79e739|ad90bfae-53cb-4f0f-98b0-7e3e019c23f7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142323093|42889685|9700348c-e44b-4991-8fed-2c35cb643b2e|eb2415f0-c79b-48b0-a4f0-cbbf8b6daf31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142348494|50689684|c504936a-dc89-4d94-ace6-2f722e82c097|6404221b-4d61-417d-9a9a-995d9a784636",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142373823|48990389|c504936a-dc89-4d94-ace6-2f722e82c097|6404221b-4d61-417d-9a9a-995d9a784636",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -96,7 +173,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -133,7 +210,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -440,7 +517,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
