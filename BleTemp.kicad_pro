@@ -54,6 +54,10 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
+          "solder_mask_bridge|137042505|48490390|48d5a428-c301-4af6-bbec-58fe39ad6d81|3f1f131e-4044-4fc2-8c2a-9f3212d11a5b",
+          ""
+        ],
+        [
           "solder_mask_bridge|139502703|44790004|cd7e07d4-c754-4de4-abf5-e14ebe06c576|225ce24c-3301-4665-840c-5a48f390c805",
           ""
         ],
@@ -122,7 +126,15 @@
           ""
         ],
         [
+          "solder_mask_bridge|142348490|50689684|849f5dd8-1dc1-44b1-8154-bfd18a56ba72|b067e12f-05d7-420f-8308-3b4263f3dbb4",
+          ""
+        ],
+        [
           "solder_mask_bridge|142348494|50689684|c504936a-dc89-4d94-ace6-2f722e82c097|6404221b-4d61-417d-9a9a-995d9a784636",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142373823|48990389|48d5a428-c301-4af6-bbec-58fe39ad6d81|3f1f131e-4044-4fc2-8c2a-9f3212d11a5b",
           ""
         ],
         [
@@ -568,7 +580,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": ""
+      "vrml": "BleTemp.wrl"
     },
     "page_layout_descr_file": ""
   },
